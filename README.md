@@ -13,9 +13,9 @@ A beginner full-stack web application that allows users to keep track of the cou
 
 ## Tech Stack:
 
-Frontend: EJS, HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: PostgreSQL
+* Frontend: EJS, HTML, CSS, JavaScript
+* Backend: Node.js, Express.js
+* Database: PostgreSQL
 
 ## Preview:
 ![Travel Tracker Home Page](screenshot.png)
