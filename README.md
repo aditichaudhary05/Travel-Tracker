@@ -21,7 +21,7 @@ Database: PostgreSQL
 ![Travel Tracker Home Page](screenshot.png)
 
 ## 📂Project Structure:
-
+```text
 travel-tracker/
 │
 ├── public/
