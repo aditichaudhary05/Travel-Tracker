@@ -1,26 +1,26 @@
-#Travel Tracker
+# Travel Tracker
 
 A beginner full-stack web application that allows users to keep track of the countries they have visited. Users can add countries to their travel history, and the countries are highlighted on an interactive world map.
 
-##Features:
+## Features:
 
-*Add countries you have visited
-*Interactive world map visualization
-*Visited countries are highlighted automatically
-*Data stored permanently using PostgreSQL
-*Simple and clean user interface
-*Server-side rendering with EJS
+* Add countries you have visited
+* Interactive world map visualization
+* Visited countries are highlighted automatically
+* Data stored permanently using PostgreSQL
+* Simple and clean user interface
+* Server-side rendering with EJS
 
-##Tech Stack:
+## Tech Stack:
 
 Frontend: EJS, HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: PostgreSQL
 
-##Preview:
+## Preview:
 ![Travel Tracker Home Page](screenshot.png)
 
-##📂Project Structure:
+## 📂Project Structure:
 
 travel-tracker/
 │
@@ -40,7 +40,7 @@ travel-tracker/
 ├── queries.sql
 └── README.md
 
-##Installation:
+## Installation:
 
 1. Clone the repository
 
@@ -76,13 +76,13 @@ node index.js
 http://localhost:3000
 ```
 
-##Database:
+## Database:
 
 The application uses PostgreSQL to store country information and the list of countries visited by the user.
 
-##Tables:
+## Tables:
 
-###countries:
+### countries:
 
 | Column       | Type               |
 | ------------ | ------------------ |
@@ -90,14 +90,14 @@ The application uses PostgreSQL to store country information and the list of cou
 | country_code | VARCHAR UNIQUE     |
 | country_name | VARCHAR            |
 
-###visited_countries:
+### visited_countries:
 
 | Column       | Type                                                     |
 | ------------ | ---------------------------------------------------------|
 | id           | SERIAL PRIMARY KEY                                       |
 | country_code | VARCHAR FOREIGN KEY REFERENCES countries(country_code)   |
 
-##What I Learned
+## What I Learned:
 
 This project helped me practice:
 
@@ -108,7 +108,7 @@ This project helped me practice:
 * Handling form submissions
 * Server-side rendering with Node.js
 
-##Future Improvements
+## Future Improvements
 
 * Support for multiple users
 * User authentication
@@ -116,7 +116,7 @@ This project helped me practice:
 * Country search and filtering
 * Travel wishlist feature
 
-##Author
+## Author
 
 Aditi Chaudhary
 
