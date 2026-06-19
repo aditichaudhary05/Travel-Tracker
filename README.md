@@ -46,7 +46,7 @@ travel-tracker/
 
 ```bash
 git clone https://github.com/your-username/travel-tracker.git
-
+```
 2. Navigate to the project folder
 
 ```bash
